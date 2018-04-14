@@ -45,8 +45,8 @@ a{
 	padding:10px 20px;
 	border:2px solid #fff;
 	text-decoration:none;
-	&:hover{
-		background:#fff;
-		color:#212121;
-	}
+}
+a:hover{
+    background:#fff;
+    color:#212121;
 }
