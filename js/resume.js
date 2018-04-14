@@ -25,4 +25,14 @@
     target: '#sideNav'
   });
 
+  // Activate Bootstrap Tooltip
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+  });
+
+  //control quoteCarousel interval
+  $('#quotesCarousel').carousel({
+    interval: 10000
+  });
+
 })(jQuery); // End of use strict

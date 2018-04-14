@@ -138,6 +138,16 @@ section.resume-section .resume-item .resume-date {
   color: #4682B4 !important;
 }
 
+.no-padding {
+  padding: 0!important;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+  display:block;
+}
+
 a {
   color: #4682B4;
 }
