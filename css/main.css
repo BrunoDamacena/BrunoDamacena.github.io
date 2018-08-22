@@ -146,6 +146,11 @@ section.resume-section .resume-item .resume-date {
   padding: 0!important;
 }
 
+.img-formula {
+  width: auto;
+  max-width: 350px;
+}
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{

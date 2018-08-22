@@ -1,0 +1,65 @@
+---
+permalink: /rubiks-cube-possible-combinations
+---
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Estudante de Engenharia de Computação, aspirante a desenvolvedor. Amante do cinema, da música e das nerdices.">
+        <meta name="author" content="Bruno Damacena">
+        <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/main.min.css" rel="stylesheet">
+
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+        <title>Combinações possíveis do Cubo Mágico</title>
+    </head>
+    <body class="no-padding text-center">
+
+        <h3 class="mb-5 mt-5">Calculadora de combinações possíveis de um cubo NxNxN</h3>
+        <div class="col-xs-12 mb-3">
+            <div>O algoritmo foi baseado nessa expressão matemática, que surgiu de análise combinatória:</div>
+            <img class="img-formula" src="img/combinations.jpg">
+            <div>Com base na expressão, eu criei um <a href="https://github.com/BrunoDamacena/brunodamacena.github.io/tree/master/js/cubeCombinations.js" target="_blank">algoritmo</a> que calcula a quantidade de combinações possíveis de qualquer cubo NxNxN.</div>
+            <div>Tente abaixo:</div>
+        </div>
+        <div class="col-xs-12">
+            <div class="col-xs-12 col-md-4 offset-md-4 mb-3">
+                <div>Insira o número de camadas:</div>
+                <input id="layers" class="form-control mb-2" type="number" placeholder="Número de camadas">
+                <button class="btn btn-success btn-block mg-t" onclick="calculate()">Calcular!</button>
+            </div>
+        </div>
+
+        <div class="col-xs-12 m-3">
+            <div id="possible"></div>
+            <div id="combinations" style="word-wrap: break-word"></div>
+            <div id="quote"></div>
+        </div>
+        <div class="mt-3 mb-3">
+            <a class="text-default" href="/"><u>Voltar</u></a>
+        </div>
+        
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/resume.min.js"></script>
+        <script src="http://peterolson.github.com/BigInteger.js/BigInteger.min.js"></script>        
+        <script src="js/cubeCombinations.min.js"></script>
+    </body>
+</html>
