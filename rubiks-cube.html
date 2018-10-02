@@ -36,7 +36,7 @@ permalink: /rubiks-cube-possible-combinations
         <div class="col-xs-12">
             <div class="col-xs-12 col-md-4 offset-md-4 mb-3">
                 <div>Insira o número de camadas:</div>
-                <input id="layers" class="form-control mb-2" type="number" placeholder="Número de camadas">
+                <input id="layers" class="form-control mb-2" type="number" placeholder="Número de camadas" onkeypress="if(event.keyCode == 13) calculate()">
                 <button class="btn btn-success btn-block mg-t" onclick="calculate()">Calcular!</button>
             </div>
         </div>
