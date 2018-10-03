@@ -1,7 +1,7 @@
 var combinations;
 function calculate() {
     var layers = document.getElementById("layers").value;
-    if(typeof layers == 'undefined' || layers == '') return;
+    if(typeof layers == 'undefined' || layers == '' || layers <=0) return;
     document.getElementById("possible").innerHTML = "O número de combinações possíveis do " + layers + "x" + layers + "x" + layers + " é:";
     combinations = cubeCombinations(layers).toString();
     if(combinations.length > 501) {
