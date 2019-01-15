@@ -32,7 +32,7 @@
 
   //control quoteCarousel interval
   $('#quotesCarousel').carousel({
-    interval: 7500
+    interval: 9000
   });
 
 })(jQuery); // End of use strict
